@@ -1,64 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/images/favicon.ico" />
 
-    <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+  <title>Portfolio</title>
 </head>
-    <body>
-        <nav>
-            <div class="top-banner">
-                <h1>Dan Schissler</h1>
-                    
-                <div class="top-nav">
-                    <a href ="index.html">About</a> <li> | <li>
-                    <a href ="portfolio.html">Portfolio</a> <li> | </li>
-                    <a href ="contact.html"> Contact </a>
-                </div>
-            </div>
-        </nav>
 
-        <section>
-            <div class="stupid">
-                <h2>Portfolio</h2>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand">
+      <img src="/assets/images/1200px-Flag_of_Cascadia.svg.png" width="30" height="30" class="d-inline-block align-top"
+        alt="my icon">
+      Dan Schissler
+    </a>
+    <div class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bio.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li> -->
+    </div>
+  </nav>
 
-                <div class="example">
-                    <h3>Music</h3>
-                    <img src="assets/images/turntable.jpeg" alt="turntable">    
-                </div>                
-                
-                <div class="example">
-                    <h3>Concerts</h3>
-                    <img src="assets/images/rave.jpeg" alt="rave">
-                </div>                
-                
-                <div class="example">
-                    <h3>Nature</h3>
-                    <img src="assets/images/trees.jpeg" alt="trees">
-                </div>  
-                
-                <div class="example">
-                    <h3>Business</h3>
-                    <img src="assets/images/skyline.jpeg" alt="Vegas">
-                </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container" id="jtron">
+      <h1 class="display-4">Portfolio</h1>
+      <p class="lead">For those wanting to see my work</p>
+    </div>
+  </div>
 
-                <div class="example">
-                    <h3>Baking</h3>
-                    <img src="assets/images/bread.jpeg" alt="bread">
-                </div>
-            </div>
-        </section>
-        
-        <div class="clr"></div>
 
-        <footer>
-            <div class="bottom-banner">
-                <h6>Copyright</h6>
-            </div>
-        </footer>
-    </body>
+  <div class="holder">
+    <div class="row">
+      <div class="image-holder col-xs-8 col-sm-6 col-md-6 col-lg-4">
+        <figure class="figure">
+          <img class="figure-img" src="assets/images//coming-soon-1.png" alt="Google books" width="225" height="150">
+          <figcaption>
+            <h5 class="captions">Google Books List</h5>
+          </figcaption>
+          </a>
+        </figure>
+      </div>
+  
+      <div class="image-holder col-xs-8 col-sm-6 col-md-6 col-lg-4">
+        <figure class="figure">
+          <a href="https://my-office-friend-finder.herokuapp.com">
+            <img class="figure-img" src="/assets/images/dunder-mifflin-scranton-interior-design.jpg" alt="Scrapper" width="225" height="150">
+          </a>
+          <figcaption>
+            <h5 class="captions">The Office <br>Friend Finder</h5>
+          </figcaption>
+          </a>
+        </figure>
+      </div>
+  
+      <div class="image-holder col-xs-8 col-sm-6 col-md-6 col-lg-4">
+        <figure class="figure">
+          <a href="https://azorse.github.io/TriviaGame/">
+            <img class="figure-img" src="assets/images/trivia.jpg" alt="trivia" width="225" height="150">
+          </a>
+          <figcaption>
+            <h5 class="captions">Trivia Game</h5>
+          </figcaption>
+          </a>
+        </figure>
+      </div>
+    </div>
+  <br />
+  <br />
+    <div class="row">
+      <div class="image-holder col-xs-8 col-sm-6 col-md-6 col-lg-4">
+        <figure class="figure">
+          <a href="https://futurama-clicky-game.herokuapp.com/">
+            <img class="figure-img" src="assets/images/citybackground.jpg" alt="Match-game" width="225" height="150">
+          </a>
+          <figcaption>
+            <h5 class="captions">Futurama <br>Match Game</h5>
+          </figcaption>
+          </a>
+        </figure>
+      </div>
+  
+  
+      <div class="image-holder col-xs-8 col-sm-6 col-md-6 col-lg-4">
+        <figure class="figure">
+          <a href="https://project2beta.herokuapp.com/">
+            <img class="figure-img" src="assets/images/semi-random.png" alt="random" width="225" height="150">
+          </a>
+          <figcaption>
+            <h5 class="captions">Semi-random Recommendations</h5>
+          </figcaption>
+          </a>
+        </figure>
+      </div>
+  
+  
+      <div class="image-holder col-xs-8 col-sm-6 col-md-6 col-lg-4">
+        <figure class="figure">
+          <a href="https://project-sfw.herokuapp.com/">
+            <img class="figure-img" src="assets/images/potter.png" alt="random" width="225" height="150">
+          </a>
+          <figcaption>
+            <h5 class="captions">Harry Potter Quiz Platform</h5>
+          </figcaption>
+          </a>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="footercase">
+      <div class="icons d-flex justify-content-center">
+        <a href="https://github.com/Azorse" id="github">
+          <img src="/assets/images/icon.png" alt="git-icon" width="50" height="50">
+        </a>
+        <a id="linkdin">
+          <img src="" alt="space of icons" width="50" height="40">
+        </a>
+        <a href="https://www.linkedin.com/in/dan-schissler-543458112" id="linkdin">
+          <img src="/assets/images/social-media-linkedin.jpg" alt="link-icon" width="50" height="50">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>
